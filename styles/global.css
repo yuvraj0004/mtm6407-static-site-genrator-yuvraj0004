@@ -1,0 +1,163 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #e41076;
+    line-height: 1.5;
+  }
+  
+  h1, h2, h3 {
+    color: #057f56;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+nav {
+    background: #bdeb07;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo img {
+    height: 60px; 
+    cursor: pointer;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  section {
+    background: #a7e0ee;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  section img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  form {
+    margin-top: 20px;
+    background: #c0bcbc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background: #34db7f;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  form button:hover {
+    background: #b92943;
+  }
+  
+  footer {
+    background: #bdeb07;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+  }
+  
+  footer .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer .footer-logo img {
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      margin: 5px 0;
+    }
+  
+    section {
+      padding: 20px;
+    }
+  
+    form input,
+    form textarea {
+      font-size: 14px;
+    }
+  
+    form button {
+      width: 100%;
+    }
+  }
+  

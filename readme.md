@@ -1,0 +1,3 @@
+- Name - Yuvraj Singh
+- Student Number - 041101999
+- Static site genrator - Next.js
